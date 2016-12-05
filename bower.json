@@ -1,6 +1,6 @@
 {
   "name": "mk-timepicker",
-  "description": "Timepicker in  milisecunds",
+  "description": "Timepicker using milliseconds",
   "main": [
     "demo",
     "dist",
@@ -27,5 +27,13 @@
   "authors": [
     "Mads Kold <madskold@outlook.com>"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/MadsKold/mk-timepicker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
