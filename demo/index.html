@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <title>Mk timepicker demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="../src/mk-timepicker.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-controller="demoController">
+    <div class="container">
+        <h2>Mk timepicker demo</h2>
+        <div class="hero-unit">
+            <input type="text" time-picker ng-model="time" /><br/>
+            {{time}} in milisecunds
+        </div>
+    </div>
+</body>
+</html>
